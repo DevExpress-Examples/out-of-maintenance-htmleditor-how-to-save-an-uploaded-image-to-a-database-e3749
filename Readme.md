@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[HomeController.cs](./CS/SaveImageToDB/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/SaveImageToDB/Controllers/HomeController.vb))**
+* [Utils.cs](./CS/SaveImageToDB/Models/Utils.cs) (VB: [Utils.vb](./VB/SaveImageToDB/Models/Utils.vb))
+* [HtmlEditorPartial.cshtml](./CS/SaveImageToDB/Views/Home/HtmlEditorPartial.cshtml)
+* [Index.cshtml](./CS/SaveImageToDB/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # HtmlEditor - How to save an uploaded image to a database
 
 
