@@ -1,9 +1,0 @@
-@using SaveImageToDB.Controllers;
-
-@Html.DevExpress().HtmlEditor(settings => {
-    settings.Name = "htmlEditor";
-    settings.CallbackRouteValues = new { Controller = "Home", Action = "HtmlEditorPartial" };
-    settings.SettingsDialogs.InsertImageDialog.SettingsImageUpload.UploadCallbackRouteValues = new { Controller = "Home", Action = "ImageUpload" };
-    settings.SettingsDialogs.InsertImageDialog.SettingsImageUpload.UploadFolder = HtmlEditorDemosHelper.UploadDirectory;
-    settings.SettingsDialogs.InsertImageDialog.SettingsImageUpload.ValidationSettings.Assign(HtmlEditorDemosHelper.ImageUploadValidationSettings);
-}).GetHtml()
